@@ -39,6 +39,7 @@ input {
     margin-left: 10px;
     float: right;
     cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         box-shadow: 0 2px hsl(150, 20%, 20%);
 }
 #b1:active {
@@ -59,6 +60,7 @@ input {
     margin-left: 10px;
     float: right;
     cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 0 2px hsl(150, 20%, 20%);
 }
 #b2:active {
@@ -111,41 +113,18 @@ h2{
     font-family: Courier New, Courier, monospace;
     font-size: 25px;
 }
-/*
-.baraMain {
-    width: 800px;
-    font-size: 150%;
-    padding-top: 20px;
-    margin: 0px auto 0px auto;
-    text-align: center;
-    font-family: Courier New, Courier, monospace;
-    background-color: #fff340;
-    border-radius: 50px;
+.buttons:hover {
+    color: #ffffff;
+    background-color: red;
+    transition: 0.4s;
 }
-.main {
-    position: fixed;
-    background-color: blue;
-    height: 120px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding-top: 10px;
+#b1:hover {
+    color: #eeeeee;
+    background-color: #4CAF50;
+    transition: 0.3s;    
 }
-input {
-    width: 400px;
-    height: 40px;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 100%;
+#b2:hover {
+    color: #eeeeee;
+    background-color: #E68802;
+    transition: 0.3s;    
 }
-.butt{
-    color: black;
-    background-color: white;
-    width: 100px;
-    height: 50px;
-    border-radius: 35px;
-    border: 1px solid black;
-}
-.butt:hover {
-    background-color: black;
-    color: white;
-}*/
